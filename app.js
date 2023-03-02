@@ -6,8 +6,10 @@ function revealContent(){
 
     if(hidderContent.classList.contains('reveal-btn')){
         hidderContent.classList.remove('reveal-btn')
+        revealBtn.textContent = 'Reveal more'
     } else {
         hidderContent.classList.add('reveal-btn')
+        revealBtn.textContent = 'Reveal less';
     }
 }
 
